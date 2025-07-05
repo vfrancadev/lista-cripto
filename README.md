@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# 💰 Lista de Criptomoedas — React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visualize em tempo real os principais dados de criptomoedas com uma interface moderna, desenvolvida com **React + TypeScript + Vite**. Ideal para quem quer acompanhar o mercado cripto de forma rápida, leve e eficiente.
 
-Currently, two official plugins are available:
+![Vite](https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ **React** — SPA reativa e rápida
+- 🧠 **TypeScript** — Tipagem forte para maior segurança
+- ⚡ **Vite** — Dev server ultra rápido com HMR
+- 🔍 **API pública** — Dados reais de criptomoedas via [CoinCap API](https://docs.coincap.io)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📸 Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✅ Listagem das principais criptomoedas  
+✅ Busca por nome ou símbolo  
+✅ Preço em tempo real  
+✅ Variação percentual em 24h  
+✅ Detalhamento individual de cada cripto  
+✅ Navegação com React Router
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🖥️ Preview
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Preview do projeto](https://i.imgur.com/YxZKxKk.png) <!-- substitua pela imagem real do seu projeto se tiver -->
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/vfrancadev/lista-cripto.git
+
+# 2. Acesse a pasta
+cd lista-cripto
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o projeto
+npm run dev
