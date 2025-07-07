@@ -30,7 +30,7 @@ Visualize em tempo real os principais dados de criptomoedas com uma interface mo
 
 ## 🖥️ Preview
 
-![Preview do projeto](https://i.imgur.com/YxZKxKk.png) <!-- substitua pela imagem real do seu projeto se tiver -->
+![Preview do projeto](https://github.com/vfrancadev/lista-cripto/blob/main/src/assets/criptoproject.png) <!-- substitua pela imagem real do seu projeto se tiver -->
 
 ---
 
